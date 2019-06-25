@@ -3,8 +3,6 @@
  */
 package com.vmc.design.designpatterns.factorymethod;
 
-import org.springframework.stereotype.Service;
-
 import com.vmc.design.designpatterns.factorymethod.beans.IEntity;
 import com.vmc.design.designpatterns.factorymethod.beans.Issuer;
 
