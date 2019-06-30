@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.vmc.design.designpatterns.factorymethod.beans;
+package com.vmc.design.designpatterns.factorymethod;
 
 /**
  * @author krishna_v
