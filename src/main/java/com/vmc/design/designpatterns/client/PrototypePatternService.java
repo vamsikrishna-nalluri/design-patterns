@@ -14,6 +14,7 @@ import com.vmc.design.designpatterns.prototype.Person;
 @Service
 public class PrototypePatternService {
 	public PrototypePatternService() {
+		System.out.println("*************** prototype pattern  start ******************");
 		Person p = new Person();
 		p.setName("vamsi");
 		p.setAge(23);
@@ -24,5 +25,6 @@ public class PrototypePatternService {
 		System.out.println("chnage in actual object "+p.getAge());
 		
 		System.out.println("Clone "+clone.getAge());
+		System.out.println("*************** prototype pattern end ******************");
 	}
 }

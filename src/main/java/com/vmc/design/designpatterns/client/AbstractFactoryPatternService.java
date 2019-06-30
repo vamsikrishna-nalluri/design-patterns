@@ -18,12 +18,15 @@ import com.vmc.design.designpatterns.abstractfactory.RectangularPhotoFrameFactor
 public class AbstractFactoryPatternService {
 	
 	public AbstractFactoryPatternService() {
+		System.out.println("*************** abstaract factory pattern strat ******************");
 		PhotoFrameFactory pf = new RectangularPhotoFrameFactory();
 		
 		//pf.createFrame();
 		//pf.createPhoto();
 		
 		PhotoFrame objPF = pf.getPhotoFrame();
+		
+		System.out.println("*************** abstract factory pattern end ******************");
 	}
 
 }

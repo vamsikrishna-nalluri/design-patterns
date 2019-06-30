@@ -20,7 +20,9 @@ public class FactoryMethodPatternService {
 		// Factory Method is a creational design pattern that provides an interface for
 		// creating objects in superclass, but allows subclasses to differentiate the
 		// type of objects that will be created.
+		System.out.println("*************** factory method pattern start ******************");
 		IEntity e = EntityFactory.getEntity("IN");
+		System.out.println("*************** factory method pattern end ******************");
 	}
 
 }
