@@ -14,16 +14,15 @@ public class President {
 
 	}
 
-	private static synchronized President getPresident() {
+	private static synchronized void getPresident() {
 		if(president == null) {
 			president = new President();
 		}
-		return president;
 	}
 	
 	public static President getInstance() {
 		if(president == null) {			
-			return getPresident();
+			getPresident();
 		}
 		return president;
 	}
